@@ -1,5 +1,5 @@
 def subArraySum(arr, n, Sum):
-# Complexity : Time - O(n), Space - O(1) : Handles Negatives
+# Complexity : Time - O(n), Space - O(n) : Handles Negatives
     Map = {}
     curr_sum = 0
     for i in range(0, n):
@@ -37,7 +37,7 @@ def subArraySum(arr, n, Sum):
 	for i in range(0,n):
 		currentSum = arr[i]
 		if(currentSum == sum):
-			print("Sum found at indexe",i)
+			print("Sum found at index",i)
 			return
 		else:
 			for j in range(i+1,n):

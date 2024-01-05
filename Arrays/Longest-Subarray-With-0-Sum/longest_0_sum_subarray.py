@@ -26,4 +26,4 @@ def maxLen(arr):
 
 if __name__ == "__main__":
 	arr = [15, -2, 2, -8, 1, 7, 10, 13]
-	print ("Length of the longest 0 sum subarray is % d" % maxLen(arr))
+	print ("Length of the longest 0 sum subarray is %d" % maxLen(arr))
